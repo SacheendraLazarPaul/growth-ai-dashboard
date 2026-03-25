@@ -339,21 +339,6 @@ with st.expander("Product thinking / PRD summary"):
         """
     )
 
-# -------------------------------------------------
-# README section inside app
-# -------------------------------------------------
-with st.expander("Submission notes / how to explain this build"):
-    st.markdown(
-        """
-        ### What to say in your Loom walkthrough
-        - This is a lightweight AI-first growth operations dashboard built in Streamlit.
-        - It combines campaign visibility, lead scoring, and recommendation generation in one interface.
-        - I designed it to show how I think in systems: inputs, scoring logic, operator workflows, and reporting.
-        - The next step would be replacing demo data with live APIs like GA4, Search Console, and CRM data.
-        """
-    )
-
-# -------------------------------------------------
 # Raw data
 # -------------------------------------------------
 if show_raw:
